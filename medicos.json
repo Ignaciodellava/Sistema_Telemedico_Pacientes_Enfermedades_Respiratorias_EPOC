@@ -1,0 +1,46 @@
+[
+  {
+    "nombre": "Carlos",
+    "apellidos": "Perez",
+    "licencia": "1111",
+    "identificacion": "Ca1234",
+    "contrasena": "abc",
+    "fn": "04/01/2022",
+    "genero": "masculino",
+    "especialidad": "Medico de cabecera",
+    "id": "1"
+  },
+  {
+    "nombre": "Marcos",
+    "apellidos": "Pepitez",
+    "licencia": "2222",
+    "identificacion": "Ma1234",
+    "contrasena": "abc",
+    "fn": "03/01/2022",
+    "genero": "masculino",
+    "especialidad": "Medico especialista",
+    "id": "2"
+  },
+  {
+    "nombre": "Natalia",
+    "apellidos": "Pazos",
+    "licencia": "3333",
+    "identificacion": "Na1234",
+    "contrasena": "natalia",
+    "fn": "27/12/2021",
+    "genero": "femenino",
+    "especialidad": "Medico de cabecera",
+    "id": "3"
+  },
+  {
+    "nombre": "Ignacio",
+    "apellidos": "De Llano",
+    "licencia": "4444",
+    "identificacion": "1112",
+    "contrasena": "abc",
+    "fn": "04/01/2022",
+    "genero": "masculino",
+    "especialidad": "Medico especialista",
+    "id": "4"
+  }
+]

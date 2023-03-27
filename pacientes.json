@@ -1,0 +1,92 @@
+[
+  {
+    "id": "4",
+    "nombre": "Pepito",
+    "apellidos": "Juanjez",
+    "DNI": "36475645D",
+    "usuario": "Pepito1234",
+    "contrasena": "Pe1234",
+    "fn": "03/01/2022",
+    "genero": "masculino"
+  },
+  {
+    "id": "3",
+    "nombre": "Brunno",
+    "apellidos": "Alto",
+    "DNI": "54345434W",
+    "usuario": "Bruno1234",
+    "contrasena": "Br1234",
+    "fn": "04/01/2022",
+    "genero": "masculino"
+  },
+  {
+    "id": "3",
+    "nombre": "Carmen",
+    "apellidos": "Hernandez",
+    "DNI": "56565656F",
+    "usuario": "Carmen1234",
+    "contrasena": "Ca1234",
+    "fn": "06/01/2022",
+    "genero": "femenino"
+  },
+  {
+    "id": "2",
+    "nombre": "Pilar",
+    "apellidos": "Alcoba",
+    "DNI": "57684321F",
+    "usuario": "Pilar1234",
+    "contrasena": "Pi1234",
+    "fn": "05/01/2022",
+    "genero": "femenino"
+  },
+  {
+    "id": "1",
+    "nombre": "Alonso",
+    "apellidos": "De Llano",
+    "DNI": "67584938Y",
+    "usuario": "Alonso1234",
+    "contrasena": "Al1234",
+    "fn": "28/12/2021",
+    "genero": "masculino"
+  },
+  {
+    "id": "1",
+    "nombre": "Paulo",
+    "apellidos": "Londra",
+    "DNI": "46576857G",
+    "usuario": "Paulo1234",
+    "contrasena": "Pa1234",
+    "fn": "07/01/2022",
+    "genero": "masculino"
+  },
+  {
+    "id": "2",
+    "nombre": "Alvaro",
+    "apellidos": "Bermudez",
+    "DNI": "34567856A",
+    "usuario": "Alvaro1234",
+    "contrasena": "Al1234",
+    "fn": "17/01/2022",
+    "genero": "masculino"
+  },
+  {
+    "id": "3",
+    "nombre": "Juan",
+    "apellidos": "Sin Miedo",
+    "DNI": "32345654D",
+    "usuario": "Juan1234",
+    "contrasena": "Ju1234",
+    "fn": "19/01/2022",
+    "genero": "masculino"
+  },
+  {
+    "id": "4",
+    "nombre": "Nacho",
+    "apellidos": "Perez",
+    "DNI": "87656475C",
+    "usuario": "Nacho1234",
+    "contrasena": "Na1234",
+    "fn": "13/01/2022",
+    "genero": "masculino"
+  }
+]

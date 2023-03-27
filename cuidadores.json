@@ -1,0 +1,52 @@
+[
+  {
+    "id": "4",
+    "nombre": "Lucas",
+    "apellidos": "Alvarez",
+    "DNI": "87654321Q",
+    "usuario": "Lucas1234",
+    "contrasena": "Lu1234",
+    "fn": "01/01/2022",
+    "genero": "masculino"
+  },
+  {
+    "id": "4",
+    "nombre": "Marco",
+    "apellidos": "Marquez",
+    "DNI": "56475645P",
+    "usuario": "Marco1234",
+    "contrasena": "Ma1234",
+    "fn": "04/01/2022",
+    "genero": "masculino"
+  },
+  {
+    "id": "3",
+    "nombre": "Laura",
+    "apellidos": "Nunez",
+    "DNI": "87654321O",
+    "usuario": "Laura1234",
+    "contrasena": "La1234",
+    "fn": "15/01/2022",
+    "genero": "femenino"
+  },
+  {
+    "id": "2",
+    "nombre": "Paula",
+    "apellidos": "Martin",
+    "DNI": "77654354R",
+    "usuario": "Paula1234",
+    "contrasena": "Pa1234",
+    "fn": "01/01/2022",
+    "genero": "femenino"
+  },
+  {
+    "id": "1",
+    "nombre": "Celia",
+    "apellidos": "Perez",
+    "DNI": "76879809P",
+    "usuario": "Celia1234",
+    "contrasena": "Ce1234",
+    "fn": "13/01/2022",
+    "genero": "femenino"
+  }
+]

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="250.0" layoutY="192.0" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: orange;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="38.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="62.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1">
+               <center>
+                  <LineChart maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="113.0" prefWidth="232.0" BorderPane.alignment="CENTER">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+               </center>
+               <left>
+                  <LineChart maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="113.0" prefWidth="232.0" BorderPane.alignment="CENTER">
+                     <xAxis>
+                        <CategoryAxis side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis side="LEFT" />
+                     </yAxis>
+                  </LineChart>
+               </left>
+               <bottom>
+                  <ButtonBar maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="13.0" prefWidth="66.0" BorderPane.alignment="CENTER" />
+               </bottom>
+               <top>
+                  <Button mnemonicParsing="false" onAction="#cerrarsesion" style="-fx-background-color: white;" text="Cerrar Sesión" textFill="#0598ff" underline="true" BorderPane.alignment="CENTER_RIGHT" />
+               </top></BorderPane>
+            <Text fill="#0598ff" strokeType="OUTSIDE" strokeWidth="0.0" text="Menú Paciente" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="100.0" />
+               </GridPane.margin>
+            </Text>
+            <Text fill="#0598ff" strokeType="OUTSIDE" strokeWidth="0.0" text="Mis Datos">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="75.0" />
+               </GridPane.margin>
+            </Text>
+            <TextArea fx:id="etiquetadatospaciente" maxHeight="-Infinity" prefHeight="63.0" prefWidth="177.0">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </TextArea>
+            <TextField fx:id="misSensores" prefHeight="158.0" prefWidth="266.0">
+               <GridPane.margin>
+                  <Insets top="270.0" />
+               </GridPane.margin>
+            </TextField>
+            <Label fx:id="sensores" prefHeight="17.0" prefWidth="55.0" style="-fx-background-color: white;" text="Sensores">
+               <GridPane.margin>
+                  <Insets left="95.0" top="90.0" />
+               </GridPane.margin>
+            </Label>
+            <Button fx:id="botonSensores" mnemonicParsing="false" onAction="#MostrarSensores" prefHeight="27.0" prefWidth="120.0" text="Mostrar sensores">
+               <GridPane.margin>
+                  <Insets left="60.0" top="460.0" />
+               </GridPane.margin>
+            </Button>
+            <TextField fx:id="misMedicos" prefHeight="51.0" prefWidth="203.0">
+               <GridPane.margin>
+                  <Insets bottom="200.0" />
+               </GridPane.margin>
+            </TextField>
+            <Button fx:id="botonmedico" mnemonicParsing="false" onAction="#MostrarMedicos" prefHeight="25.0" prefWidth="124.0" text="Mostrar médicos">
+               <GridPane.margin>
+                  <Insets bottom="280.0" left="55.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="botoncuidadores" mnemonicParsing="false" onAction="#MostrarCuidadores" text="Mostrar cuidadores">
+               <GridPane.margin>
+                  <Insets bottom="470.0" left="54.0" />
+               </GridPane.margin>
+            </Button>
+            <TextField fx:id="misCuidadores" prefHeight="65.0" prefWidth="203.0">
+               <GridPane.margin>
+                  <Insets bottom="375.0" />
+               </GridPane.margin>
+            </TextField>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

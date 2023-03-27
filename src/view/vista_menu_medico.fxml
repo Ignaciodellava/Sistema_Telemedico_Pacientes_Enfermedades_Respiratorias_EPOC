@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="250.0" layoutY="192.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1">
+               <bottom>
+                  <TextArea fx:id="Mlistarpacientes" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="229.0" prefWidth="308.0" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="25.0" />
+                     </BorderPane.margin></TextArea>
+               </bottom>
+               <top>
+                  <Button maxWidth="-Infinity" mnemonicParsing="false" onAction="#cerrarsesion" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: white;" text="Cerrar Sesión" textFill="#0598ff" underline="true" BorderPane.alignment="CENTER_RIGHT" />
+               </top></BorderPane>
+            <BorderPane prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: orange;">
+               <center>
+                  <TextField fx:id="MdniPaciente" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="27.0" prefWidth="155.0" promptText="Buscar Paciente DNI" BorderPane.alignment="CENTER_LEFT">
+                     <BorderPane.margin>
+                        <Insets bottom="195.0" left="40.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+            </BorderPane>
+            <Text fill="#0598ff" strokeType="OUTSIDE" strokeWidth="0.0" text="Menú médico" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="100.0" />
+               </GridPane.margin>
+            </Text>
+            <Button maxWidth="-Infinity" mnemonicParsing="false" onAction="#mostrarPacientes" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #0598ff;" text="Mis Pacientes" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets top="-130.0" />
+               </GridPane.margin>
+            </Button>
+            <Button layoutX="481.0" layoutY="328.0" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buscarPaciente" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #0598ff;" text="Buscar" textFill="WHITE">
+               <GridPane.margin>
+                  <Insets left="220.0" top="-200.0" />
+               </GridPane.margin></Button>
+            <Button layoutX="481.0" layoutY="328.0" maxWidth="-Infinity" mnemonicParsing="false" onAction="#registrarCuidador" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #0598ff;" text="Añadir cuidador" textFill="WHITE" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets top="100.0" />
+               </GridPane.margin></Button>
+            <Button layoutX="481.0" layoutY="328.0" maxWidth="-Infinity" mnemonicParsing="false" onAction="#registrarPacientes" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #0598ff;" text="Añadir paciente" textFill="WHITE" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets top="250.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="botonId" maxWidth="-Infinity" mnemonicParsing="false" onAction="#añadirSensor" prefHeight="35.0" prefWidth="214.0" style="-fx-background-color: #0598ff;" text="Añadir Sensor Con usuario paciente" textFill="WHITE">
+               <GridPane.margin>
+                  <Insets left="80.0" top="400.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
